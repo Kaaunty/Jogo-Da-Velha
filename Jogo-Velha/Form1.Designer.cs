@@ -52,6 +52,7 @@
             this.draw_count = new System.Windows.Forms.Label();
             this.O_count = new System.Windows.Forms.Label();
             this.p1 = new System.Windows.Forms.TextBox();
+            this.p1.Focus();
             this.p2 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -311,6 +312,7 @@
             // 
             // p1
             // 
+            this.p1.HideSelection = false;
             this.p1.Location = new System.Drawing.Point(13, 298);
             this.p1.Name = "p1";
             this.p1.Size = new System.Drawing.Size(70, 20);
@@ -355,7 +357,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jogo da Velha";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

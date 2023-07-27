@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace Jogo_Velha
 {
     public partial class Form1 : Form
@@ -17,17 +10,14 @@ namespace Jogo_Velha
         bool pc = false;
         bool turno = true;// true = X turno; false = O turno
         int contagemTurno = 0;
-        //static String jogador1, jogador2;
         public Form1()
         {
             InitializeComponent();
+            this.KeyPreview = true;
+            this.ActiveControl = label2;
         }
 
-        //public static void setNome(String n1, String n2)
-        //{
-        //    jogador1 = n1;
-        //    jogador2 = n2;
-        //}
+        #region Menu
         private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Por Kauã Freitas", "Sobre", MessageBoxButtons.OK);
@@ -37,8 +27,7 @@ namespace Jogo_Velha
         {
             Application.Exit();
         }
-
-
+        #endregion
 
         private void button_click(object sender, EventArgs e)
         {
@@ -192,7 +181,7 @@ namespace Jogo_Velha
         private void button_leave(object sender, EventArgs e)
         {
             Button b = (Button)sender;
-            if (b.Enabled) 
+            if (b.Enabled)
             {
                 b.Text = "";
             }
@@ -207,10 +196,7 @@ namespace Jogo_Velha
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Form2 nome = new Form2();
-            //nome.ShowDialog();
-            //label1.Text = jogador1;
-            //label3.Text = jogador2;
+
 
         }
 
@@ -391,5 +377,32 @@ namespace Jogo_Velha
         {
             p2.Text = "Jogador 2";
         }
+
+
+
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.NumPad1)
+                C1.PerformClick();
+            else if (e.KeyCode == Keys.NumPad2)
+                C2.PerformClick();
+            else if (e.KeyCode == Keys.NumPad3)
+                C3.PerformClick();
+            else if (e.KeyCode == Keys.NumPad4)
+                B1.PerformClick();
+            else if (e.KeyCode == Keys.NumPad5)
+                B2.PerformClick();
+            else if (e.KeyCode == Keys.NumPad6)
+                B3.PerformClick();
+            else if (e.KeyCode == Keys.NumPad7)
+                A1.PerformClick();
+            else if (e.KeyCode == Keys.NumPad8)
+                A2.PerformClick();
+            else if (e.KeyCode == Keys.NumPad9)
+                A3.PerformClick();
+        }
+
+
     }
 }
