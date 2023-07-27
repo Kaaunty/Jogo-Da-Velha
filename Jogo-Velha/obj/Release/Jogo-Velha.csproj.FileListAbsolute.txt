@@ -1,0 +1,12 @@
+C:\Users\Dell\Documents\Exercicios\Jogo-Velha\Jogo-Velha\bin\Release\Jogo-Velha.exe.config
+C:\Users\Dell\Documents\Exercicios\Jogo-Velha\Jogo-Velha\bin\Release\Jogo-Velha.exe
+C:\Users\Dell\Documents\Exercicios\Jogo-Velha\Jogo-Velha\bin\Release\Jogo-Velha.pdb
+C:\Users\Dell\Documents\Exercicios\Jogo-Velha\Jogo-Velha\obj\Release\Jogo-Velha.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\Exercicios\Jogo-Velha\Jogo-Velha\obj\Release\Jogo-Velha.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell\Documents\Exercicios\Jogo-Velha\Jogo-Velha\obj\Release\Jogo_Velha.Form1.resources
+C:\Users\Dell\Documents\Exercicios\Jogo-Velha\Jogo-Velha\obj\Release\Jogo_Velha.Form2.resources
+C:\Users\Dell\Documents\Exercicios\Jogo-Velha\Jogo-Velha\obj\Release\Jogo_Velha.Properties.Resources.resources
+C:\Users\Dell\Documents\Exercicios\Jogo-Velha\Jogo-Velha\obj\Release\Jogo-Velha.csproj.GenerateResource.cache
+C:\Users\Dell\Documents\Exercicios\Jogo-Velha\Jogo-Velha\obj\Release\Jogo-Velha.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\Exercicios\Jogo-Velha\Jogo-Velha\obj\Release\Jogo-Velha.exe
+C:\Users\Dell\Documents\Exercicios\Jogo-Velha\Jogo-Velha\obj\Release\Jogo-Velha.pdb
